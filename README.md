@@ -1,11 +1,11 @@
-** mananciais_rmsp**
+# mananciais_rmsp
 <br><br>
 
-O projeto " mananciais_rmsp " tem como finalidade informar diarimanete o volume total de água armazenado na região metropolitana de São Paulo.
+O projeto "mananciais_rmsp " tem como finalidade informar diarimanete o volume total de água armazenado na região metropolitana de São Paulo.
 
 As informações são atualizadas diariamente https://mananciais.sabesp.com.br/Situacao
 
-O código foi programado para rodar em dias úteis as 11:00h e a coleta da informação do volume total de água é realizada através de uma api e transmitida por recurso de áudio.
+O código foi programado para rodar em dias úteis às 11:00h e a coleta da informação do volume total de água é realizada através de uma api e transmitida por recurso de áudio.
 <br><br>
 
 **INSTALAÇÃO**
@@ -23,12 +23,10 @@ Na sequência instalar o requirements:<br>
 
 **ESTRUTURA DO REPOSITÓRIO**
 ```
-
 mananciais_rmsp/
-|
 ├── src/
-│   └── app.py
-│   └── audio.py
+│   ├── app.py
+│   ├── audio.py
 |   └── sabesp.py
 ├── readme.md
 └── requirements.txt
@@ -40,5 +38,4 @@ mananciais_rmsp/
     playsound==1.2.2
     Flask==2.0.2
     workadays==2021.6.10
-
 ```
