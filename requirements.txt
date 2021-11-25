@@ -1,0 +1,5 @@
+gTTS==2.2.3
+playsound==1.2.2
+requests==2.26.0
+Flask==2.0.2
+workadays==2021.6.10
